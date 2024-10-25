@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("/img.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.wrapper {
+  position: relative;
+  width: 420px;
+  background-color: transparent;
+  color: white;
+  border-radius: 25px;
+  padding: 20px 40px;
+  border: 2px slateblue solid;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 20px crimson;
+}
+.wrapper h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+}
+.wrapper .input-box {
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 20px;
+  color: white;
+  padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder {
+  color: white;
+}
+.input-box i {
+  position: absolute;
+  right: 20px;
+
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.wrapper .remember-forget {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  margin: 15px 0 15px 5px;
+}
+.remember-forget label input {
+  accent-color: white;
+  margin: 10px 10px;
+}
+.remember-forget a {
+  color: white;
+  text-decoration: none;
+}
+
+.remember-forget a:hover {
+  text-decoration: underline;
+  color: brown;
+}
+.wrapper .btn {
+  width: 100%;
+  height: 50px;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.wrapper .register-link {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+.register-link p a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.register-link p a:hover {
+  text-decoration: underline;
+  color: chartreuse;
+}
